@@ -12,9 +12,7 @@
 
 ```cd dash_app_example```
 
-### Step 2. Initialize the folder with git and a virtualenv
-
-```git init        # initializes an empty git repo```
+### Step 2. Clone the repository and Use a virtualenv to run the application
 
 ```virtualenv venv # creates a virtualenv called "venv"```
 
