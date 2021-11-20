@@ -5,12 +5,10 @@ import pandas as pd
 
 source = data.barley()
 
-df = pd.read_csv(source)
-
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
-    html.H1('Hello, World!'+str(len(df)))
+    html.H1('Hello, World!'+str(len(source)))
 ])
 
 if __name__ == '__main__':
