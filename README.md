@@ -16,6 +16,8 @@
 
 ```virtualenv venv # creates a virtualenv called "venv"```
 
+```python3 -m venv venv```
+
 ```source venv/bin/activate # uses the virtualenv```
 
 virtualenv creates a fresh Python instance. You will need to reinstall the app's dependencies with this virtualenv:
